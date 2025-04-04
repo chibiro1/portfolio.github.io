@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css" />
+    <title>Brandon Rueda - Portfolio</title>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="navdiv">
+        <div class="logo"><a href="#">BranDon</a></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Profile Section -->
+<div class="container">
+    <div class="img">
+        <img src="img/ProfileA-removebg-preview.png" alt="Profile Picture">
+    </div>
+
+    <div class="profile-sidebar">
+        <div class="Intro">
+            <p><strong>Hello, I’m</strong></p>
+            <p><strong>Brandon Rueda</strong></p>
+            <p>Programmer / Designer</p>
+            <p>I am a Professional Game Programmer and Designer. Having 5+ years of experience in quantum rizztics and game programming. I live in the Philippines, Manila. Having professional skills like designing games, programming, and UI/UX designing.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Section Divider -->
+<div class="section-divider"></div>
+
+<!-- Services Section -->
+<div class="services-section">
+    <h2>My Services</h2>
+    <p>What I am Providing?</p>   
+</div>
+
+<section class="services">
+    <div class="service-card">
+        <img src="img/game-development.png" alt="Game Designing">
+        <h3>Game Designing</h3>
+    </div>
+
+    <div class="service-card">
+        <img src="img/Coding.png" alt="Game Programming">
+        <h3>Game Programming</h3>
+    </div>
+
+    <div class="service-card">
+        <img src="img/uiux.png" alt="UI/UX Designing">
+        <h3>UI/UX Designing</h3>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="contact-section">
+    <div class="contact-card">
+        <h3>Facebook</h3>
+        <a href="https://www.facebook.com/yourprofile" target="_blank">Brandon Rueda</a>
+    </div>
+
+    <div class="contact-card">
+        <h3>Contact No.</h3>
+        <p>09359833364</p>
+    </div>
+
+    <div class="contact-card">
+        <h3>Email</h3>
+        <p>brandawn09@gmail.com</p>
+    </div>
+</section>
+
+<!-- Side Navigation Menu -->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Log In</a>
+    <a href="#">Sign Up</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</div>
+
+<span class="menu-icon" onclick="openNav()">&#9776;</span>
+
+<!-- JavaScript for Side Menu -->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
